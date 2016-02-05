@@ -1,0 +1,8 @@
+
+
+
+
+# must include path from root
+git log -- path-file
+git log -p path-file
+
