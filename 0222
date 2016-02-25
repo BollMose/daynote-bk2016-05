@@ -1,0 +1,3 @@
+
+# math/otcave
+矩阵的除法：a ./ Matrix vs a / Matrix: 矩阵的除法定义是 a * inv(X), 所以需要区分
