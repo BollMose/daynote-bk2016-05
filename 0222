@@ -1,3 +1,4 @@
 
 # math/otcave
-矩阵的除法：a ./ Matrix vs a / Matrix: 矩阵的除法定义是 a * inv(X), 所以需要区分
+矩阵的除法：a ./ Matrix vs a / Matrix: 没有后者。
+矩阵的除法定义是 A/X = A * inv(X), 
