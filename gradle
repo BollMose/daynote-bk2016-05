@@ -1,0 +1,4 @@
+
+# gradle plugin is too old please update to a more recent version ... 
+res: change to classpath 'com.android.tools.build:gradle:1.5.0'
+comment: downgrade the version of gradle, becuase of version of gradle and plugin is not the same.
