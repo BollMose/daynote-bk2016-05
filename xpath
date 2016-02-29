@@ -1,0 +1,4 @@
+
+#
+check an element whose text='x1' and its brother's text is 'borther1': and is not AND
+//*[@text='value1' and ../*[text='value2']
