@@ -1,0 +1,14 @@
+## android
+# layout/tablayout 
+tablayout is always with viewpage and swipe view
+
+# ui/ViewPager
+ViewPager has adapter to provide data.
+extend from PageDadapter or FragmentPagerAdapter
+
+# settings/v4
+add lib v4 support in android studio
+app -> open moule settings -> dependcies ->add libs
+
+# actionbar
+Top of the page, position of Navigation bar in iOS.
