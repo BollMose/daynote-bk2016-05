@@ -1,3 +1,8 @@
+# protocol
+why?
+protocol SettingsViewControllerDelegate: class {
+  func settingsViewControllerFinished(settingsViewController: SettingsViewController)
+}
 
 # respondsToSelect/Selector
 if (self.repondsToSelector(@selector(popoverPresentationController))){}
