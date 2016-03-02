@@ -1,5 +1,13 @@
+# enum
+a shorter dot syntax
+Direction.West vs .West
+
+
+# swift type: class or struct (? enum)
+simple: struct instance is value, and class object is reference 
+
 # protocol
-why?
+? why add class
 protocol SettingsViewControllerDelegate: class {
   func settingsViewControllerFinished(settingsViewController: SettingsViewController)
 }
