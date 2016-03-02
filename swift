@@ -1,3 +1,15 @@
+
+# Unwrapping
+Once you’re sure that the optional does contain a value, you can access its underlying value 
+by adding an exclamation mark (!) to the end of the optional’s name.
+But if nil, crashed 使用拆包的时候需要确认不为nil，否则是运行错误
+
+# Optional Binding
+# Implicitly Unwrapped Optionals
+隐式拆包，对应的式显式拆包( 
+if let someConst = var {
+}
+
 # enum
 a shorter dot syntax
 Direction.West vs .West
