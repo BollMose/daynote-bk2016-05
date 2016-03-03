@@ -1,0 +1,15 @@
+
+
+
+# defer
+execute after function returned.
+defer stack
+
+# newton/sqrt
+func Sqrt(x float64) float64 {
+	z := x / 2
+	for i := 0;i < 10; i ++ {
+		z  = z - (z*z - x)/2/z
+	}
+	return z
+}
