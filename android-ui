@@ -1,0 +1,3 @@
+
+# GridLayoutManager
+new GridLayoutManager(getActivity(),3), 第二个参数是每行的个数，spanCount
