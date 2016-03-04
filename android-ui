@@ -1,3 +1,8 @@
 
+
+# View/onMeasure
+from sdk docs: When overriding this method, you must call setMeasuredDimension(int, int) 
+to store the measured width and height of this view. 
+
 # GridLayoutManager
-new GridLayoutManager(getActivity(),3), 第二个参数是每行的个数，spanCount
+new GridLayoutManager(getActivity(),3), 2nd paramter is spanCount
