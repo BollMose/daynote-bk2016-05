@@ -13,3 +13,5 @@ Cantonese
 # android/action/bar
 android:showAsAction
 app:showAsAction
+
+# SparseArray 
