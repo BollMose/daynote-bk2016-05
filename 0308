@@ -15,3 +15,6 @@ android:showAsAction
 app:showAsAction
 
 # SparseArray 
+
+# menuItem
+menu.findItem(R.id.menu_find)
