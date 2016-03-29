@@ -1,4 +1,9 @@
 
+# context
+环境，比如linux进程相关信息（file handler，console）等，
+因为activity是独立的，所以每个activity都有自己的context，
+主要是获取某些资源，如字符串，
+
 
 # View/onMeasure
 from sdk docs: When overriding this method, you must call setMeasuredDimension(int, int) 
