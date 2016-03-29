@@ -4,6 +4,9 @@
 因为activity是独立的，所以每个activity都有自己的context，
 主要是获取某些资源，如字符串，
 
+# activity
+其实本质上activity不是ui，而是controller，传递事件（系统事件和用户输入）
+每个activity是独立的，
 
 # View/onMeasure
 from sdk docs: When overriding this method, you must call setMeasuredDimension(int, int) 
