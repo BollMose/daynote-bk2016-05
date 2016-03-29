@@ -6,3 +6,37 @@ to store the measured width and height of this view.
 
 # GridLayoutManager
 new GridLayoutManager(getActivity(),3), 2nd paramter is spanCount
+
+# View
+setOnClickListener(new View.OnClickListener{
+public void onClick(View view) {
+    //...
+  }
+})
+# 
+# Fragment, 3.0 , and support v4
+# 4.4 KitKat: Dalvik -> ART( Android Run Time)
+# Android-5.0, lollipop
+# v4 is sdk-1.6, and v7 is sdk2.1
+# AppCompatActivity, v7 support
+
+# Context
+.getApplicationContext() /getContext() /getBaseContext(), Activity is Context
+.getSystemService(LAYOUT_INFLATER_SERVICE) 
+
+# Navigation bar -> back/menu/home at the bottom of screen and overlay.
+# App bar, also known as action bar -> at the top of screen.
+
+# Inflater
+# MenuInflater
+inflate(,)
+
+# layout-id
+<item android:id="@+id/some_id" 
+..
+</item>
+# FloatingActionButton
+
+
+# Toast
+# Snackbar
