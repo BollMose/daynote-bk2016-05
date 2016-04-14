@@ -17,5 +17,7 @@ brew install octave
 setenv ("GNUTERM", "X11")
 
 brew install Caskroom/cask/xquartz
+reboot sysmtem
+
 brew uninstall gnuplot
 brew install gnuplot --with-x11
