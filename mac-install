@@ -21,3 +21,6 @@ reboot sysmtem
 
 brew uninstall gnuplot
 brew install gnuplot --with-x11
+
+add the following to ~/.bash_profile
+export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
