@@ -24,3 +24,9 @@ brew install gnuplot --with-x11
 
 add the following to ~/.bash_profile
 export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
+
+# ffmeg
+ref: https://trac.ffmpeg.org/wiki/CompilationGuide/MacOSX
+
+brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265
+NOTE: reboot system!?
