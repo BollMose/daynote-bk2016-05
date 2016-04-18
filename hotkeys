@@ -1,0 +1,26 @@
+
+
+## InteliJ
+# run
+Ctr + R: run
+F8: step over
+F7: step into
+CMD +F8: toggle breakpoint
+CMD + Alt + R: resume
+
+Ctrl + B: go to declare
+CMD + U: go to parent class
+CMD + L: open line(pop)
+
+# search
+CMD + F: find in this file
+Shift + CMD + F: find text in all files
+Shift -> Shift: Search everything
+
+# pop
+CMD + O: open class file
+CMD + shift + O: open file
+
+Ctrl + O: show override methods 
+
+CMD + Alt + L: format code
