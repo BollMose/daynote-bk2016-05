@@ -1,0 +1,6 @@
+
+# xcode/group/target/test
+ques: Add a test case to target: if you drag the folder to project directly, you can't set the target for each file.
+answ: You need create a group, and then add file to that group, and then you can set target for file.
+
+
