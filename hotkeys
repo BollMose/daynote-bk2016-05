@@ -1,6 +1,12 @@
 
 
 ## InteliJ
+# most use but not remembered
+CMD + B:
+CMD + Alt + R: debug resume
+CMD + Alt + L: format code
+CMD + F12: show all methods of this class
+
 # run
 Ctr + R: run
 F8: step over
@@ -8,9 +14,11 @@ F7: step into
 CMD +F8: toggle breakpoint
 CMD + Alt + R: resume
 
+# browse
 Ctrl + B: go to declare
 CMD + U: go to parent class
 CMD + L: open line(pop)
+CMD + F12: show all methods of this class
 
 # search
 CMD + F: find in this file
