@@ -8,6 +8,7 @@ CMD + Alt + L: format code
 CMD + F12: show all methods of this class
 
 # run
+CMD + F9: build
 Ctr + R: run
 F8: step over
 F7: step into
