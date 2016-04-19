@@ -1,0 +1,6 @@
+
+
+# Handler/post
+Hanler.post(Runnable r) will execute this runnable in this thread. 
+If you want to do in another thread, need create another thread
+So if you only want to execute thread, only: (new Thread(r)).start();
