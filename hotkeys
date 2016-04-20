@@ -1,4 +1,34 @@
 
+## VIM
+*: [Shift]: search current word
+%: [Shift]: match {} () []
+
+gg: begin of file
+G: [Shift]: end of file
+nn + G: move to line of nn
+
+Ctrl + e/y: move down/up one line, 
+Ctrl + d/u: move down/up by one half of screen, down/up
+Ctrl + f/b: move down/up by one screen, forward/backward
+
+zz: move cursor line to the center of screen
+zt/zb: move cursor line to the top/bottom of screen
+
+:%s/search/replaced/[gci]
+
+# delete
+
+# move
+
+# search
+
+# replace
+
+# copy
+
+# past/yank
+
+#
 
 ## InteliJ
 # most use but not remembered
