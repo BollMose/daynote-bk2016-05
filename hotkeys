@@ -1,4 +1,13 @@
 
+## git
+git log --author ""
+git diff --name-only --diff-filter=U
+git branch branchname <sha1-of-commit>
+git log --follow filename
+git log -p filename
+git ls-tree --full-tree -r head
+gitk
+
 ## VIM
 *: [Shift]: search current word
 %: [Shift]: match {} () []
