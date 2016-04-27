@@ -48,7 +48,8 @@ CMD + F12: show all methods of this class
 
 # run
 CMD + F9: build
-Ctr + R: run
+Ctrl + R: run
+Ctrl + D: Debug
 F8: step over
 F7: step into
 CMD +F8: toggle breakpoint
