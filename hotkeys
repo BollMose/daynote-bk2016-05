@@ -46,6 +46,7 @@ CMD + Alt + R: debug resume
 CMD + Alt + L: format code
 CMD + F12: show all methods of this class
 
+Alt + F12: swith focus between editor and terminal.
 # run
 CMD + F9: build
 Ctrl + R: run
