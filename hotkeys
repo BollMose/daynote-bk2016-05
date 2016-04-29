@@ -73,3 +73,6 @@ CMD + shift + O: open file
 Ctrl + O: show override methods 
 
 CMD + Alt + L: format code
+
+# Chrome
+CMD + R : refresh
