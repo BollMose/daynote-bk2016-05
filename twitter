@@ -1,0 +1,20 @@
+
+# basic
+https://apps.twitter.com/ # view your apps
+
+# key and secret
+Consumer Key (API Key)
+Consumer Secret (API Secret)
+Access token:
+Access token secret: 
+
+# 
+always use post
+
+# iOS
+NSUserDefaults : to store token and secret
+STTwitterAPI: 
+
+# iOS/login 
+login in with browser,
+check with iOS login
