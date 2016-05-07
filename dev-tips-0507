@@ -1,0 +1,8 @@
+
+
+## and
+#
+apache HttpClient is not supported any more in sdk 23.
+ref: http://stackoverflow.com/questions/32153318/httpclient-wont-import-in-android-studio
+
+#
