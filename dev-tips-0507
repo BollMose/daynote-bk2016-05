@@ -1,8 +1,16 @@
 
+## ios
+#
+edgesForExtendedLayout: there are multi-properties and method to set that value
+
+#
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
+: do not return nil, which can invoke assert fail
+
 
 ## and
+Java can use switch on String after JDK7
+
 #
 apache HttpClient is not supported any more in sdk 23.
 ref: http://stackoverflow.com/questions/32153318/httpclient-wont-import-in-android-studio
-
-#
