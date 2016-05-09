@@ -1,0 +1,14 @@
+
+
+# ios
+// 0505
+edgesForExtendedLayout: there are multi-properties and method to set that value
+
+// 0506
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
+: do not return nil, which can invoke assert fail
+
+
+# and
+// 0506
+Java can use switch on String after JDK7
