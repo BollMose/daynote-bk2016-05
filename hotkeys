@@ -8,6 +8,16 @@ git log -p filename
 git ls-tree --full-tree -r head
 gitk
 
+## XCode
+# open/close assistant editor
+CMD + Alt + Enter(,) : open
+CMD + Enter : close
+
+# open file
+CMD + Shift + O: open file, 
+Enter : open in main editor, 
+Enter + Alt : assistant editor
+
 ## VIM
 *: [Shift]: search current word
 %: [Shift]: match {} () []
