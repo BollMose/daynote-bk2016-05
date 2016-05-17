@@ -18,6 +18,11 @@ CMD + Shift + O: open file,
 Enter : open in main editor, 
 Enter + Alt : assistant editor
 
+# key J
+CMD + J: select editor
+CMD + Alt + J: filter
+CMD + Shift + J: show current file in project
+
 ## VIM
 *: [Shift]: search current word
 %: [Shift]: match {} () []
