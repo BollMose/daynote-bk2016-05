@@ -18,3 +18,10 @@ STTwitterAPI:
 # iOS/login 
 login in with browser,
 check with iOS login
+
+## python
+twitter
+twython
+# problems
+can not visit throuth sock5 proxy
+can not use oauth2 throught terminal because that do not pop web browser.
