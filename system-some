@@ -2,8 +2,12 @@
 # gem install through proxy
 gem install --http-proxy http://xxx.xx.x:port cocoapods
 
-#
+# 
 gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
+
+# permission
+sudo gem uninstall cocoapods 
+sudo gem install -n /usr/local/bin cocoapods
 
 #
 git config --global http.proxy 'socks5://127.0.0.1:1080'
