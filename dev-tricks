@@ -8,6 +8,8 @@ edgesForExtendedLayout: there are multi-properties and method to set that value
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
 : do not return nil, which can invoke assert fail
 
+// 0520
+delegate need define as weak, even in swift
 
 # and
 // 0506
