@@ -1,4 +1,17 @@
+# 0527
+// crash log symbolize
+tools: symbolicatecrash
 
+// armv7/arm64
+view type of file: dwarfdump --uuid xx.app.dSYM
+
+// method 1 ( not correct)
+find crash point: atos -arch arm64 -o ABC.app/ABC 0x0000000100302974
+
+// method 2
+export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+symbolicatecrash xx.crash
+symbolicatecrash -v xx.crash Abc.app.dSYM
 
 # ios
 // 0505-0518
