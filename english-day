@@ -1,4 +1,36 @@
 
+# basketball
+PG:point guard控球后卫，又称1号位 
+SG:shooting guard得分后卫，又称2号位 
+SF:small forward小前锋 ，又称3号位 
+PF:power forward大前锋 ，又称4号位 
+C:center中锋 ，又称5号位
+
+violation: 5-second *
+foul: ( offensive foul, defensive foul, blocking foul, charging foul, personal/team foul, pushing foul, reaching in foul, technical foul)
+foul out:
+
+crossover( double crossover)
+fake: 假动作
+fast break: 快攻
+
+floater: 抛投
+buzzer beater: 绝杀
+catch and shoot: 接球投篮
+drifter: 横向移动投篮
+fade-away: 后仰
+shoot from downtown: 三分
+dunk
+drive in: 切入
+
+court: backcourt  frontcourt
+
+2-point shot
+and 1: 
+assist:
+air ball: 
+alley oop: 
+
 # food
 hotpot
 crab
