@@ -1,4 +1,8 @@
 # 0527
+// NSArray/NSMutableArray
+can only store object from NSObject, can not store any instance of struct.
+But can store default type 
+
 // crash log symbolize
 tools: symbolicatecrash
 
