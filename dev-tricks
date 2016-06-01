@@ -1,4 +1,6 @@
-# 0527
+// UIControl
+UIControl -> UIView
+
 // classOnlyProtocol
 is a protocol, but can as view a instance from NSObject, such as delegate
 but is still a protocol not a class.
