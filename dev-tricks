@@ -1,7 +1,18 @@
 # 0527
+// classOnlyProtocol
+is a protocol, but can as view a instance from NSObject, such as delegate
+
+// swift/objc/protocol
+in objc, you can define a protocol as delegate directly, because of default as NSObject<xxProtocol>
+but in swift, you can not do it, you need set xxProtocol as class:
+protocol xxProtocol : class
+In swift, class conform a protocol or inhrit from a class has the same format:
+class xxClass : xxBaseClass, xxProtocol   --> This is Class-Only protocols
+
 // NSArray/NSMutableArray
 can only store object from NSObject, can not store any instance of struct.
 But can store default type 
+For swift, do not use NSArray or others, use collection type if possible. -->Swift’s Array type is bridged to Foundation’s NSArray class.
 
 // crash log symbolize
 tools: symbolicatecrash
