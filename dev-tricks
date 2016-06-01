@@ -3,7 +3,13 @@
 is a protocol, but can as view a instance from NSObject, such as delegate
 but is still a protocol not a class.
 swift is single inheritance only
+is the same as: 
+@objc protocol xxProtocol {
 
+}
+protocol xxProtocol : class {
+
+}
 // swift/objc/protocol
 in objc, you can define a protocol as delegate directly, because of default as NSObject<xxProtocol>
 but in swift, you can not do it, you need set xxProtocol as class:
