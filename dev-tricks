@@ -1,3 +1,9 @@
+// GCD
+GCD is still in swift
+dispatch_async(dispatch_get_main_queue()) {
+
+}
+
 // UIControl
 UIControl -> UIView
 
