@@ -12,3 +12,15 @@ sudo gem install -n /usr/local/bin cocoapods
 #
 git config --global http.proxy 'socks5://127.0.0.1:1080'
 git config --global https.proxy 'socks5://127.0.0.1:1080'
+
+
+# npm with proxy
+//I run this command:
+npm config set strict-ssl false
+//Then set npm to run with http, instead of https:
+npm config set registry "http://registry.npmjs.org/"
+//Then I install packages using this syntax:
+npm --proxy http://username:password@cacheaddress.com.br:80 \
+install packagename
+
+ref: http://stackoverflow.com/questions/7559648/is-there-a-way-to-make-npm-install-the-command-to-work-behind-proxy
