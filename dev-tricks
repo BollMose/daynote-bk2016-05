@@ -1,3 +1,13 @@
+# cordova
+// add local plugin
+cordova plugin add /path/to/directory
+
+# swift 
+XXXType.self  as XXXType.class in objc, means to that type, maybe .type is perfect
+guard xxx else { return }
+keywords: prefix/postfix/infix: override operator
+keywords: muta
+
 // GCD
 GCD is still in swift
 dispatch_async(dispatch_get_main_queue()) {
