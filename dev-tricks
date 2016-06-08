@@ -8,6 +8,9 @@ guard xxx else { return }
 keywords: prefix/postfix/infix: override operator
 keywords: muta
 
+# iOS
+Semaphore
+
 // GCD
 GCD is still in swift
 dispatch_async(dispatch_get_main_queue()) {
