@@ -1,7 +1,22 @@
-# cordova
-// add local plugin
-cordova plugin add /path/to/directory
+# cordova plugin
+// cordova plugin 
+add /path/to/directory
+remove plugin_id
 
+//
+cordova platform update ios@4.0.0 
+
+// header and source files
+<platform name="ios">
+...
+<header-file src="src/ios/xx.h" />    
+<source-file src="src/ios/Frameworks/x.a" framework="true" autogen="true" />
+<framework src="src/ios/Frameworks/x.framework" custom="true" />
+</platform>
+
+// plugman
+plugman create --name AmILate --plugin_id cordova-plugin-am-i-late --plugin_version 0.0.1
+plugman platform add --platform_name ios
 # swift 
 XXXType.self  as XXXType.class in objc, means to that type, maybe .type is perfect
 guard xxx else { return }
