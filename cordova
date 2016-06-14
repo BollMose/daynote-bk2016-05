@@ -1,3 +1,7 @@
+# build
+cordova build && cordova run
+do not use xcode 
+
 # cordova plugin
 // cordova plugin 
 add /path/to/directory
