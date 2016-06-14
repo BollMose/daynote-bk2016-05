@@ -1,0 +1,44 @@
+# cordova plugin
+// cordova plugin 
+add /path/to/directory
+remove plugin_id
+
+//
+cordova platform update ios@4.0.0 
+
+// header and source files
+<platform name="ios">
+...
+<header-file src="src/ios/xx.h" />    
+<source-file src="src/ios/Frameworks/x.a" framework="true" autogen="true" />
+<framework src="src/ios/Frameworks/x.framework" custom="true" />
+</platform>
+# cordova
+cordova create hello com.example.helloapp Hello
+// *.js
+/*
+module.exports = {
+    greet : function (name, successCallback, errorCallback)
+    {
+        cordova.exec(successCallback, errorCallback, "Hello", "greet", [name]);
+    }
+};
+*/
+
+var hello = hello || {};
+module.exports = hello;
+
+hello.greet = function (name, successCallback, errorCallback)
+{
+    cordova.exec(successCallback, errorCallback, "Hello", "greet", [name]);
+};
+
+hello.greet2 = function (name, successCallback, errorCallback)
+{
+    cordova.exec(successCallback, errorCallback, "Hello", "greet2", [name]);
+};
+
+
+// plugman
+plugman create --name AmILate --plugin_id cordova-plugin-am-i-late --plugin_version 0.0.1
+plugman platform add --platform_name ios
