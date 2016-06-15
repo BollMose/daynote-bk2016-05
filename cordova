@@ -1,3 +1,8 @@
+
+# 
+npm install -g ios-deploy
+can also build with 'cordova build' but then run with xcode
+
 # build
 cordova build && cordova run
 do not use xcode 
