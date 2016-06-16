@@ -1,3 +1,6 @@
+
+# bluetooth need restart if no update from callback
+
 # swift-cocoapod
 swift with cocoapod support has a issue: can not load swift.dylib.
 I cannot fix right now, because swift.lib need code sign but not. only appears on real devices.
