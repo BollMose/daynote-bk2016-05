@@ -1,3 +1,6 @@
+#
+由于plugin必须是源代码，所有在依赖方面其实并不严重，最后的配置都可以在实际项目中设定而不必纠结plugin之间。
+
 # plugin.xml
  <asset src="www/xindoor.js" target="js/xindoor.js"/> //need, copy this file to project
  
