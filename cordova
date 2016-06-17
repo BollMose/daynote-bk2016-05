@@ -1,4 +1,14 @@
-
+# plugin.xml
+ <asset src="www/xindoor.js" target="js/xindoor.js"/> //need, copy this file to project
+ 
+  <js-module name="xindoor" src="www/xindoor.js">
+    <clobbers target="xindoor" /> // I think this is the name of this object, can check cordova_plugins.js
+  </js-module>
+  
+<feature name="EMIndoor"> // this name is referenced in pluin js file
+	<param name="ios-package" value="Indoor" /> // this value is the iOS file/object
+</feature>
+ 
 # bluetooth need restart if no update from callback
 
 # swift-cocoapod
