@@ -1,4 +1,4 @@
-# http/https failed: maybe not work
+# http/https failed: maybe not work, need not in iPhone6sPlus
 // plist
 <key>NSAppTransportSecurity</key>
 <dict>
