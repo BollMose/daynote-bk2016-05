@@ -1,3 +1,5 @@
+# brew behind
+export ALL_PROXY=http://xxxx.xxx.com:8000
 
 # gem install through proxy
 gem install --http-proxy http://xxx.xx.x:port cocoapods
