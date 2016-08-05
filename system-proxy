@@ -1,10 +1,10 @@
-# brew behind
+# brew
 export ALL_PROXY=http://xxxx.xxx.com:8000
 
-# gem install through proxy
+# gem
 gem install --http-proxy http://xxx.xx.x:port cocoapods
 
-# 
+#
 gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
 
 # permission
@@ -19,7 +19,7 @@ git config --global https.proxy 'socks5://127.0.0.1:1080'
 git config --global url.https://github.com/.insteadOf git://github.com/
 
 
-# npm with proxy
+# npm
 //I run this command:
 npm config set strict-ssl false
 //Then set npm to run with http, instead of https:
